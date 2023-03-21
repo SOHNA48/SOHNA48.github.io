@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1">
+<head><meta http-equiv="cache-control" content="no-cache">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>오한비 전용 번역기</title>
 </head>
@@ -46,6 +48,49 @@
         font-size: 2.5em;
         border: 1px solid #444444;
     }
+    @media ( max-width: 480px ) {
+        .root-container {
+            width: auto;
+        }
+        h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2.5em;
+        }
+        label {
+            font-size: 2.5em;
+        }
+        select {
+            width: 300px;
+            font-size: 2.5em;
+
+        }
+        .select-area {
+            width: 100%;
+            display: flex;
+            padding: 10px;
+        }
+        .select-area >label {
+            width: 30%;
+        }
+        .select-area >select {
+            height: 70%;
+        }
+        button {
+            width: 300px;
+            height: 100px;
+            font-size: 2.5em;
+            padding: 1px;
+            margin: 10px;
+        }
+        textarea {
+            font-size: 2.5em;
+            border: 1px solid #444444;
+        }
+    }
+
 </style>
 <body>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
